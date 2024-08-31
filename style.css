@@ -1,0 +1,60 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    margin-left: 60px;
+    margin-right: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+header{
+    background-color: blueviolet;
+    color: beige;
+    text-align: center;
+    padding: 100px;
+}
+nav{
+    background-color: darkorange;
+}
+main{
+    background-color: skyblue;
+}
+footer{
+    background-color: khaki;
+    padding: 15px;
+}
+footer p{
+color: red;
+text-align: center;
+}
+p{
+    text-align: justify;
+    line-height: 25px;
+}
+img{
+    width: 100%;
+    margin:20px auto 0;
+}
+.imagen1{
+    width: 45%;
+    margin: auto;
+}
+
+.Galeria{
+    background-color: mediumblue;
+}
+.Galeria img{
+    width: 180px;
+    height: 180px;
+    border: 3px dashed red;
+    border-radius: 25px;
+}
+
+#rara{
+    border-radius: 50%;
+    filter: grayscale(1);
+}
